@@ -6,7 +6,6 @@ import CustomCursor from './components/CustomCursor';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Menu from './sections/Menu';
-import Gallery from './sections/Gallery';
 import Reviews from './sections/Reviews';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
@@ -77,7 +76,6 @@ export default function App() {
           <Hero mouse={mouse} />
           <About />
           <Menu />
-          <Gallery />
           <Reviews />
           <Contact />
           <Footer />
