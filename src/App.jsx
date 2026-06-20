@@ -3,7 +3,6 @@ import Lenis from 'lenis';
 import LoadingScreen from './components/LoadingScreen';
 import Navbar from './components/Navbar';
 import CustomCursor from './components/CustomCursor';
-import WhatsAppFloat from './components/WhatsAppFloat';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Menu from './sections/Menu';
@@ -82,7 +81,6 @@ export default function App() {
           <Reviews />
           <Contact />
           <Footer />
-          <WhatsAppFloat />
         </main>
       )}
     </div>
