@@ -1,9 +1,19 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Scene from '../components/3d/Scene';
 import MagneticButton from '../components/MagneticButton';
 
 export default function Hero({ mouse }) {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 1024); // lg breakpoint in Tailwind is 1024px
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   const sectionRef = useRef(null);
 
   const titleWords = "Gupta Tea Stall & Restaurant".split(' ');
@@ -169,7 +179,7 @@ export default function Hero({ mouse }) {
           >
             {/* Glow behind the model */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] rounded-full bg-gold/5 blur-[80px]" />
-            <Scene mouse={mouse} position={[0.55, -0.22, 0]} />
+            <Scene mouse={mouse} position={isMobile ? [0, -0.15, 0] : [0.55, -0.22, 0]} />
           </motion.div>
         </div>
       </div>
