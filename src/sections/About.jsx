@@ -78,7 +78,7 @@ export default function About() {
           >
             <div className="relative rounded-2xl overflow-hidden group">
               <img
-                src="/images/tea-stall-ambience.png"
+                src="/images/tea-stall-ambience.jpg"
                 alt="Gupta Tea Stall Ambience"
                 className="w-full h-[350px] sm:h-[400px] md:h-[450px] object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
