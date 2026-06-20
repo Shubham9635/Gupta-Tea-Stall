@@ -6,28 +6,28 @@ const contactCards = [
   {
     icon: <FaMapMarkerAlt className="text-2xl" />,
     title: 'Visit Us',
-    info: 'Siswa Bazar, Maharajganj, UP',
+    info: 'Kewal Chhapra, Padrauna Kushinagar',
     sub: 'Come enjoy chai with us!',
     action: 'https://www.google.com/maps/@26.9041713,83.9528754,17z',
   },
   {
     icon: <FaPhone className="text-2xl" />,
     title: 'Call Us',
-    info: '+91 XXXXX XXXXX',
+    info: '+91 9721869776',
     sub: 'Tap to call directly',
-    action: 'tel:+91XXXXXXXXXX',
+    action: 'tel:+919721869776',
   },
   {
     icon: <FaWhatsapp className="text-2xl" />,
     title: 'WhatsApp',
-    info: '+91 XXXXX XXXXX',
+    info: '+91 9118111575',
     sub: 'Quick order via WhatsApp',
-    action: 'https://wa.me/+91XXXXXXXXXX',
+    action: 'https://wa.me/+919118111575',
   },
   {
     icon: <FaClock className="text-2xl" />,
     title: 'Opening Hours',
-    info: '6:00 AM - 11:00 PM',
+    info: '6:00 AM - 8:00 PM',
     sub: 'Open all 7 days',
     action: null,
   },
@@ -120,7 +120,7 @@ export default function Contact() {
           <div className="px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-white font-medium">Gupta Tea Stall & Restaurant</p>
-              <p className="text-white/40 text-sm">Siswa Bazar, Maharajganj, Uttar Pradesh</p>
+              <p className="text-white/40 text-sm">Kewal Chhapra, Padrauna Kushinagar</p>
             </div>
             <a
               href="https://www.google.com/maps/@26.9041713,83.9528754,17z"

@@ -114,7 +114,7 @@ export default function Navbar() {
 
           {/* CTA Button (Desktop) */}
           <a
-            href="https://wa.me/+91XXXXXXXXXX"
+            href="https://wa.me/+919118111575"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:inline-flex btn-gold text-sm !py-2.5 !px-6"
@@ -174,7 +174,7 @@ export default function Navbar() {
               ))}
 
               <motion.a
-                href="https://wa.me/+91XXXXXXXXXX"
+                href="https://wa.me/+919118111575"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-gold text-center mt-8"

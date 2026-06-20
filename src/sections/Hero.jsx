@@ -141,7 +141,7 @@ export default function Hero({ mouse }) {
 
               <MagneticButton
                 as="a"
-                href="https://wa.me/+91XXXXXXXXXX?text=Hi!%20I%20want%20to%20order."
+                href="https://wa.me/+919118111575?text=Hi!%20I%20want%20to%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline inline-flex items-center justify-center gap-2 !border-[#25D366]/50 !text-[#25D366] hover:!bg-[#25D366]/10"

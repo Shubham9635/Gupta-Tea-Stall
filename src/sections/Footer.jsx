@@ -13,7 +13,7 @@ const quickLinks = [
 const socialLinks = [
   { icon: <FaInstagram />, href: 'https://instagram.com', label: 'Instagram' },
   { icon: <FaFacebookF />, href: 'https://facebook.com', label: 'Facebook' },
-  { icon: <FaWhatsapp />, href: 'https://wa.me/+91XXXXXXXXXX', label: 'WhatsApp' },
+  { icon: <FaWhatsapp />, href: 'https://wa.me/+919118111575', label: 'WhatsApp' },
   { icon: <FaYoutube />, href: 'https://youtube.com', label: 'YouTube' },
 ];
 
@@ -94,22 +94,22 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-white/40">
               <li className="flex items-start gap-3">
                 <span className="text-gold mt-0.5">📍</span>
-                <span>Siswa Bazar, Maharajganj, Uttar Pradesh</span>
+                <span>Kewal Chhapra, Padrauna Kushinagar</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-gold mt-0.5">📞</span>
-                <a href="tel:+91XXXXXXXXXX" className="hover:text-gold transition-colors">
-                  +91 XXXXX XXXXX
+                <a href="tel:+919721869776" className="hover:text-gold transition-colors">
+                  +91 9721869776
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-gold mt-0.5">🕐</span>
-                <span>6:00 AM - 11:00 PM (All Days)</span>
+                <span>6:00 AM - 8:00 PM (All Days)</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-gold mt-0.5">💬</span>
                 <a
-                  href="https://wa.me/+91XXXXXXXXXX"
+                  href="https://wa.me/+919118111575"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gold transition-colors"

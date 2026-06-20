@@ -161,7 +161,7 @@ export default function Menu() {
 
                   {/* Order button */}
                   <a
-                    href={`https://wa.me/+91XXXXXXXXXX?text=Hi!%20I%20want%20to%20order%20${encodeURIComponent(item.name)}`}
+                    href={`https://wa.me/+919118111575?text=Hi!%20I%20want%20to%20order%20${encodeURIComponent(item.name)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-4 inline-flex items-center gap-2 text-gold/70 text-sm font-medium hover:text-gold transition-colors group/btn"
