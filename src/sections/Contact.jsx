@@ -6,9 +6,9 @@ const contactCards = [
   {
     icon: <FaMapMarkerAlt className="text-2xl" />,
     title: 'Visit Us',
-    info: 'Near Main Market, Your City',
+    info: 'Siswa Bazar, Maharajganj, UP',
     sub: 'Come enjoy chai with us!',
-    action: null,
+    action: 'https://www.google.com/maps/@26.9041713,83.9528754,17z',
   },
   {
     icon: <FaPhone className="text-2xl" />,
@@ -107,7 +107,7 @@ export default function Contact() {
           <div className="p-2">
             <iframe
               title="Gupta Tea Stall Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500!2d77.209!3d28.6139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDM2JzUwLjAiTiA3N8KwMTInMzIuNCJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=26.9041713,83.9528754&t=&z=17&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="350"
               style={{ border: 0, borderRadius: '12px', filter: 'invert(90%) hue-rotate(180deg) brightness(0.8) contrast(1.2)' }}
@@ -120,10 +120,10 @@ export default function Contact() {
           <div className="px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-white font-medium">Gupta Tea Stall & Restaurant</p>
-              <p className="text-white/40 text-sm">Near Main Market, Your City</p>
+              <p className="text-white/40 text-sm">Siswa Bazar, Maharajganj, Uttar Pradesh</p>
             </div>
             <a
-              href="https://maps.google.com"
+              href="https://www.google.com/maps/@26.9041713,83.9528754,17z"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-outline !py-2 !px-5 text-sm"

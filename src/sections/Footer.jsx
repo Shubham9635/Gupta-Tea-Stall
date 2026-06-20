@@ -6,7 +6,6 @@ const quickLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
   { name: 'Menu', href: '#menu' },
-  { name: 'Gallery', href: '#gallery' },
   { name: 'Reviews', href: '#reviews' },
   { name: 'Contact', href: '#contact' },
 ];
@@ -95,7 +94,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-white/40">
               <li className="flex items-start gap-3">
                 <span className="text-gold mt-0.5">📍</span>
-                <span>Near Main Market, Your City</span>
+                <span>Siswa Bazar, Maharajganj, Uttar Pradesh</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-gold mt-0.5">📞</span>
